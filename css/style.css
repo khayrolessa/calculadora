@@ -1,0 +1,100 @@
+
+:root {
+--largura: 500px
+
+}
+
+* {
+    background-color: rgb(185, 195, 253);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.titulo {
+    margin: auto;
+    margin-top: 20px;
+    font-style: italic;
+    padding: 1px;
+    text-align: right;
+    align-self: center;
+    color: Black;
+    line-height: 1em;
+    font-size: 15px;
+    background-color: rgb(243, 242, 242);
+    box-sizing: border-box;
+    max-width: 510px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;    
+}
+
+
+.visor {
+    background-color: rgba(236, 233, 233, 0.993);
+    color: black;
+    max-width: var(--largura);
+    padding: 5px;
+    height: 130px;
+    text-align: right;
+    margin: auto;
+    font-size: 5.8em;
+
+
+}
+.botoes{
+    margin: auto;
+    max-width: 650px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.botoes p {
+    margin: 0;
+}
+
+.botoes button {
+
+    font-size: 2em;
+    color: black;
+}
+
+button {
+    background-color: rgb(243, 242, 242);
+    border: none;
+    width: 127.5px;
+    height: 75px;
+    margin: 0px;
+    
+}
+
+
+button:hover {
+
+    background-color: rgb(255, 255, 255);
+    border: 1px outset rgb(185, 195, 253);
+
+}
+
+button:active {
+
+    background-color: rgb(255, 255, 255);
+    border: 2px inset rgb(185, 195, 253);
+
+
+}
+
+.rodape {
+    margin: auto;
+    margin-top: 0px;
+    font-style: italic;
+    padding: 1px;
+    text-align: right;
+    align-self: center;
+    color: Black;
+    line-height: 1em;
+    font-size: 15px;
+    background-color: rgb(243, 242, 242);
+    box-sizing: border-box;
+    max-width: 510px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;    
+}
